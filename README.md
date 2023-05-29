@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Show Streaming Web Page <a name="about-project"></a>
+# 📖 Math Magician Project <a name="about-project"></a>
 
 **Math Magician Project:** is a project  offering a user-friendly platform for using a calculator, with features like basic calculation operations. It provides an engaging and interactive experience.
 
