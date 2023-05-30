@@ -20,7 +20,7 @@ function Quotes() {
 
   return (
     <ul>
-      {isPending && <h1>Loading...</h1>}
+      {isPending && <h2>Loading...</h2>}
       {quotes && quotes.map((quotes) => (
         <li key={quotes.author}>
           <h2>{quotes.author}</h2>
