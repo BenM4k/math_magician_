@@ -86,8 +86,8 @@ body {
   cursor: pointer;
 }
 
-.nums ul li:active {
-  opacity: .5;
+.nums ul .list:active {
+  opacity: 0.5;
 }
 
 .ops {
@@ -112,7 +112,7 @@ body {
 }
 
 .ops ul li:active {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 button {

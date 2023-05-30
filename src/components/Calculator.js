@@ -27,24 +27,24 @@ function Calculator() {
       <div className="calc">
         <div className="nums">
           <ul className="col1">
-            <li className="clear"><Button name="AC" computeFunction={computeFunction} /></li>
-            <li className="seven"><Button name="7" computeFunction={computeFunction} /></li>
-            <li className="five"><Button name="5" computeFunction={computeFunction} /></li>
-            <li className="one"><Button name="1" computeFunction={computeFunction} /></li>
-            <li className="zero"><Button name="0" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="AC" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="7" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="5" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="1" computeFunction={computeFunction} /></li>
+            <li className="list zero"><Button name="0" computeFunction={computeFunction} /></li>
           </ul>
           <ul className="col2">
-            <li className="plus-minus"><Button name="+/-" computeFunction={computeFunction} /></li>
-            <li className="eight"><Button name="8" computeFunction={computeFunction} /></li>
-            <li className="four"><Button name="4" computeFunction={computeFunction} /></li>
-            <li className="two"><Button name="2" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="+/-" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="8" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="4" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="2" computeFunction={computeFunction} /></li>
           </ul>
           <ul className="col3">
-            <li className="percentage"><Button name="%" computeFunction={computeFunction} /></li>
-            <li className="nine"><Button name="9" computeFunction={computeFunction} /></li>
-            <li className="six"><Button name="6" computeFunction={computeFunction} /></li>
-            <li className="three"><Button name="3" computeFunction={computeFunction} /></li>
-            <li className="dot"><Button name="." computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="%" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="9" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="6" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="3" computeFunction={computeFunction} /></li>
+            <li className="list"><Button name="." computeFunction={computeFunction} /></li>
           </ul>
         </div>
         <div className="ops">
