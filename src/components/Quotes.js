@@ -5,15 +5,26 @@ function Quotes() {
 
   const [quotes, setQuotes] = useState([]);
   const [isPending, setIsPending] = useState(true);
+  const [errorState, setErrorState] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(link, {
-        headers: { 'X-Api-Key': 'VwbFJrA2fRyoAlxo2UemCw==6Fg3cU4buiz80nwI' },
-      });
-      const json = await res.json();
-      setQuotes(json);
-      setIsPending(false);
+      try {
+        const res = await fetch(link, {
+          headers: { 'X-Api-Key': 'VwbFJrA2fRyoAlxo2UemCw==6Fg3cU4buiz80nwI' },
+        });
+        if (!res.ok) {
+          throw Error('could not fetch data from this source');
+        }
+        const json = await res.json();
+        setQuotes(json);
+        setIsPending(false);
+        return json;
+      } catch (err) {
+        setIsPending(false);
+        setErrorState(true);
+        return err;
+      }
     };
     fetchData();
   }, []);
@@ -27,6 +38,7 @@ function Quotes() {
           <p>{quotes.quote}</p>
         </li>
       ))}
+      {errorState && <h2>Failed to fetch Data</h2>}
     </ul>
   );
 }
