@@ -31,15 +31,16 @@ body {
 
 .App {
   display: flex;
+  flex-direction: column;
+  gap: 50px;
   align-items: center;
   justify-content: center;
-  width: auto;
+  max-width: 700px;
   height: auto;
 }
 
 .calculator {
   background: rgb(211, 211, 211);
-  width: 100%;
   box-shadow: 0 3px 8px 5px #c9c9c9;
 }
 
