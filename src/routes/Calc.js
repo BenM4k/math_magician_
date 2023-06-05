@@ -5,19 +5,30 @@ function Calc() {
   return (
     <div style={{
       marginTop: '150px',
-      display: 'flex',
-      justifyContent: 'space-between',
-      paddingRight: '150px',
+      padding: '0 90px',
+      width: '100%',
     }}
     >
-      <h2>Let&apos;s do some Math!</h2>
       <div style={{
-        border: '1px solid black',
-        padding: '50px',
-        outline: '3px solid black',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '350px',
+        padding: '25px',
         background: 'white',
+        height: 'fit-content',
+        width: 'fit-content',
       }}
       >
+        <h2 style={{
+          boxShadow: '2px 6px 4px 0 rgb(0 0 0 / 23%)',
+          padding: '15px',
+          width: 'fit-content',
+          height: 'fit-content',
+        }}
+        >
+          Let&apos;s do some Math!
+        </h2>
         <Calculator />
       </div>
     </div>

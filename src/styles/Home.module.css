@@ -2,6 +2,7 @@
   margin-top: 120px;
   width: 100%;
   height: 100%;
+  padding: 0 90px;
 }
 
 .header {
@@ -9,6 +10,9 @@
   font-size: 28px;
   margin-bottom: 50px;
   font-weight: bold;
+  box-shadow: 2px 6px 4px 0 rgb(0 0 0 / 23%);
+  padding: 15px;
+  width:fit-content;
 }
 
 .firstpar {
@@ -16,6 +20,8 @@
   font-size: 20px;
   width: 70%;
   margin-bottom: 30px;
+  box-shadow: 2px 6px 4px 0 rgb(0 0 0 / 23%);
+  padding: 15px;
 }
 
 .secondpar {
@@ -23,4 +29,6 @@
   color: black;
   font-size: 20px;
   width: 70%;
+  box-shadow: 2px 6px 4px 0 rgb(0 0 0 / 23%);
+  padding: 15px;
 }
