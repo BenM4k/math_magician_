@@ -1,6 +1,6 @@
 import { useState, useEffect, React } from 'react';
 
-function Quotes() {
+function QuotesList() {
   const link = 'https://api.api-ninjas.com/v1/quotes?category=computers';
 
   const [quotes, setQuotes] = useState([]);
@@ -34,8 +34,12 @@ function Quotes() {
       {isPending && <h2>Loading...</h2>}
       {quotes && quotes.map((quotes) => (
         <li key={quotes.author}>
-          <h2>{quotes.author}</h2>
-          <p>{quotes.quote}</p>
+          <h2 style={{
+            textAlign: 'center',
+          }}
+          >
+            {`${quotes.quote} -  ${quotes.author}`}
+          </h2>
         </li>
       ))}
       {errorState && <h2>Failed to fetch Data</h2>}
@@ -43,4 +47,4 @@ function Quotes() {
   );
 }
 
-export default Quotes;
+export default QuotesList;
