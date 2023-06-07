@@ -6,7 +6,7 @@ const Button = (props) => {
   } = props;
 
   return (
-    <button type="button" onClick={computeFunction} name={name}>{name}</button>
+    <button id="button" type="button" onClick={computeFunction} name={name}>{name}</button>
   );
 };
 
