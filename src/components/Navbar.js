@@ -17,7 +17,7 @@ function Navbar() {
             <NavLink
               to={link.path}
               style={({ isActive }) => ({
-                color: isActive ? 'blue' : undefined,
+                color: isActive ? '#ff007f' : undefined,
               })}
             >
               {link.name}

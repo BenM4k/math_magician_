@@ -8,18 +8,19 @@ function QuotesList() {
 
   return (
     <ul>
-      {isPending && <h2>Loading...</h2>}
+      {isPending && <h2 style={{ color: '#303030' }}>Loading...</h2>}
       {quotes && quotes.map((quotes) => (
         <li key={quotes.author}>
           <h2 style={{
             textAlign: 'center',
+            color: '#303030',
           }}
           >
             {`${quotes.quote} -  ${quotes.author}`}
           </h2>
         </li>
       ))}
-      {errorState && <h2>Failed to fetch Data</h2>}
+      {errorState && <h2 style={{ color: '#303030' }}>Failed to fetch Data</h2>}
     </ul>
   );
 }
