@@ -5,8 +5,12 @@ import '@testing-library/jest-dom';
 import Button from './Buttons';
 
 describe('testing my Button component', () => {
-  test('render component', () => {
-    render(<Button />);
-    expect(screen.getByRole('button')).toHaveAttribute('type', 'button');
+  // Tests that the Button component renders without the computeFunction prop.
+  test('test_button_computeFunction_not_passed', () => {
+    const { container } = render(<Button name="Test Button" />);
+
+    const element = container.firstChild;
+
+    expect(element).toHaveAttribute('type', 'button');
   });
 });
