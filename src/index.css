@@ -20,7 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(252, 252, 252);
+  background: url(../public/bgIMG.png);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@ body {
   height: 50px;
   padding-right: 5px;
   font-size: 20px;
-  background: gray;
+  background: #5c5c5c;
   color: #fff;
   display: flex;
   align-items: center;

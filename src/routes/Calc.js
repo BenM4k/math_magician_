@@ -14,17 +14,22 @@ function Calc() {
         alignItems: 'center',
         justifyContent: 'center',
         gap: '350px',
-        padding: '25px',
-        background: 'white',
+        padding: '35px',
+        background: 'rgba(255, 255, 255, 0.35)',
+        border: '1px solid rgba(255, 255, 255, 0.65)',
+        borderRadius: '20px',
         height: 'fit-content',
         width: 'fit-content',
       }}
       >
         <h2 style={{
-          boxShadow: '2px 6px 4px 0 rgb(0 0 0 / 23%)',
+          background: 'rgba(255, 255, 255, 0.35)',
+          border: '1px solid rgba(255, 255, 255, 0.50)',
+          borderRadius: '20px',
           padding: '15px',
           width: 'fit-content',
           height: 'fit-content',
+          color: '#303030',
         }}
         >
           Let&apos;s do some Math!

@@ -1,34 +1,44 @@
 .home {
   margin-top: 120px;
-  width: 100%;
+  width: 90%;
   height: 100%;
-  padding: 0 90px;
+  padding: 10px 90px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  margin-left: 30px;
 }
 
 .header {
-  color: black;
+  color: #ff007f;
   font-size: 28px;
   margin-bottom: 50px;
   font-weight: bold;
-  box-shadow: 2px 6px 4px 0 rgb(0 0 0 / 23%);
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
   padding: 15px;
   width: fit-content;
 }
 
 .firstpar {
-  color: black;
+  color: #303030;
   font-size: 20px;
   width: 70%;
   margin-bottom: 30px;
-  box-shadow: 2px 6px 4px 0 rgb(0 0 0 / 23%);
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
   padding: 15px;
 }
 
 .secondpar {
   display: block;
-  color: black;
+  color: #303030;
   font-size: 20px;
   width: 70%;
-  box-shadow: 2px 6px 4px 0 rgb(0 0 0 / 23%);
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
   padding: 15px;
 }
