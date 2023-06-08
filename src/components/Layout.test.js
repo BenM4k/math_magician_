@@ -4,7 +4,6 @@ import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Layout from './Layout';
-import Navbar from './Navbar';
 
 // Tests that the Layout component renders a Navbar and an Outlet component.
 it('test_layout_renders_navbar_and_outlet', () => {
